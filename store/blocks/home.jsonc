@@ -7,12 +7,14 @@
       "flex-layout.row",
       "flex-layout.col",
       "shelf",
-      "slider-layout#home"
+      "slider-layout#home",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
     ]
   },
   "rich-text": {
     "props": {
-      "text": "**Hello, World!**",
+      "text": "**Hello,aaaa World!**",
       "textPosition": "RIGHT"
     }
   },
@@ -75,6 +77,50 @@
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
+    }
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "rich-text#desktop", 
+      "image#desktop"
+    ]
+  },
+  "rich-text#desktop": {
+    "props": {
+      "text": "### Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "image#desktop": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+      "link": {
+        "url": "/small-appliances/coffee-makers"
+      } ,
+      "alt": "Coffee Makers Collection"
+    }
+  },
+  "responsive-layout.mobile":{
+    "children":[
+      "rich-text#mobile", 
+      "image#mobile"
+    ]
+  },
+  "rich-text#mobile": {
+    "props": {
+      "text": "#### Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "image#mobile": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+      "link": {
+        "url": "/small-appliances/coffee-makers"
+      } ,
+      "alt": "Coffee Makers Collection"
     }
   }
 }
