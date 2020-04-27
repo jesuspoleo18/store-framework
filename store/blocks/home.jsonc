@@ -8,8 +8,8 @@
       "flex-layout.col",
       "shelf",
       "slider-layout#home",
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
   "rich-text": {
@@ -79,7 +79,7 @@
       "maxWidth": "100%"
     }
   },
-  "responsive-layout.desktop": {
+  "responsive-layout.desktop#desktop": {
     "children": [
       "rich-text#desktop", 
       "image#desktop"
@@ -101,7 +101,7 @@
       "alt": "Coffee Makers Collection"
     }
   },
-  "responsive-layout.mobile":{
+  "responsive-layout.mobile#mobile":{
     "children":[
       "rich-text#mobile", 
       "image#mobile"
