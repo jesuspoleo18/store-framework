@@ -65,3 +65,9 @@ y volver a instalar todo.
 Como siempre, puedes usar tu inspector de turno, pero además, al tener bien enlazada la tienda, puedes hacer uso al queryparam "?__inspect". Ejemplo:
 
 https://wsdevjesus--ecomsurtest.myvtex.com/?__inspect
+
+# Debugging de paginas en VTEX
+
+Hay veces en los que se ven paginas antiguas de vtex 1 y para corregirlo se debe debuggear las apps y tratar de llevar las más críticas a la ultima versión.
+
+Las que logramos ver fueron la colossus y la rewriter.
