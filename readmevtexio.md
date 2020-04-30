@@ -71,3 +71,8 @@ https://wsdevjesus--ecomsurtest.myvtex.com/?__inspect
 Hay veces en los que se ven paginas antiguas de vtex 1 y para corregirlo se debe debuggear las apps y tratar de llevar las más críticas a la ultima versión.
 
 Las que logramos ver fueron la colossus y la rewriter.
+
+
+# course
+
+https://lab.github.com/vtex-trainings/vtex-store-block-course
